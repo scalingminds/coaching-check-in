@@ -442,7 +442,7 @@
     }
   });
 
-  // Handle submit (Formspree AJAX)
+  // Handle submit (POST to Supabase checkin-intake edge function)
   document.getElementById('checkinForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const form = e.target;
